@@ -1,14 +1,30 @@
+// const main = document.querySelector('main');
+
+// main.remove();
+
+// const newHeader = document.createElement('h1');
+
+// newHeader.setAttribute('id', 'victory')
+
+// newHeader.innerHTML = 'Joe is the champion'
+
+
+// document.body.append(newHeader);
+
+
+
+
+
+
+
+
+
+
+
 const main = document.querySelector('main');
+main.remove()
 
-main.remove();
-
-const newHeader = document.createElement('h1');
-
+const newHeader = document.createElement('h1')
 newHeader.setAttribute('id', 'victory')
 
-newHeader.innerHTML = 'Joe is the champion'
-
-
-document.body.append(newHeader);
-
-
+newHeader.textContent = 'YOUR-Name is the champion'
